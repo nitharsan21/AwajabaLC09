@@ -9,7 +9,12 @@ import java.util.Map;
  */
 public class Repas {
    
-    
+    private String login;
+    private String mdp;
+    private String email;
+    private LocalDate dateInscription;
+    private boolean bloque;
+    private Map<Specialite,Integer> specialite;
     
 
 }

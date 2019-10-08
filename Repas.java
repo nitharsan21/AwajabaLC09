@@ -32,6 +32,15 @@ public class Repas {
     
     public void setNumero(int id){
         this.id = id ;
+    }
+    
+    public int getDate(){
+        return this.Date ;
+    }
+    
+    public void setDate(int date){
+        this.date = date ;
+    }
 
     
 

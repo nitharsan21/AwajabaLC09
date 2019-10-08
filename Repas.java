@@ -9,6 +9,7 @@ import java.util.Map;
  */
 public class Repas {
    
+    private int id;
     private String login;
     private String mdp;
     private String email;
@@ -24,6 +25,13 @@ public class Repas {
         this.dateInscription = dateInscription;
         this.bloque = bloque;
     }
+    
+     public int getNumero(){
+        return this.id ;
+    }
+    
+    public void setNumero(int id){
+        this.id = id ;
 
     
 
